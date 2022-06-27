@@ -2,7 +2,7 @@
 Extracting Top-k Interesting Patterns in Knowledge Graphs
 # REQUIREMENTS:
 Java JRE v1.8.0 or later
-# INSTALLATION:
+# INSTRUCTIONS TO COMPILE/RUN:
 - Uncompress FastPat-KG by any compression tool
 - Build Java binaries using the "build" script file
 - Run FastPat-KG using "topkFrequent" script
