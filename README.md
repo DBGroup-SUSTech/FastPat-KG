@@ -13,10 +13,11 @@ Java JRE v1.8.0 or later
 (2) kCPD problem
 - Extract Top-10 frequent patterns with diversidy in "Oscar" knowledge graph, with k = 10, core pattern is OscarTest, diversity threshold \lamda = 0.3: "./topkFrequent -f Oscar.lg -cf OscarTest.lg -k 10 -t 0.3" 
 # DATA
-- Expected format
+- Expected graph format
 Example:
-v 0 2
-v 1 5
-v 2 6
-e 0 1 10
-e 1 2 21
+v <node_id> <node_label>
+v <node_id> <node_label>
+...
+e <node_id1> <node_id2> <edge_label>
+e <node_id1> <node_id2> <edge_label>
+...
