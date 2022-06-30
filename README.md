@@ -16,9 +16,9 @@ Java JRE v1.8.0 or later
 - Expected graph format
 
 Example:
->v <node_id> <node_label>
->v <node_id> <node_label>
->...
->e <node_id1> <node_id2> <edge_label>
->e <node_id1> <node_id2> <edge_label>
->...
+	v <node_id> <node_label>
+	v <node_id> <node_label>
+	...
+	e <node_id1> <node_id2> <edge_label>
+	e <node_id1> <node_id2> <edge_label>
+	...
