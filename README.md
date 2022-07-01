@@ -1,6 +1,7 @@
 # FastPat-KG
 ## OVERVIEW
-Extracting Top-k Interesting Patterns in Knowledge Graphs
+- FastPat is a framework to solve kCP problem, which extracts core-based top-k frequent patterns in knowledge graphs. 
+- FastPat+ is a framework to solve kCPD problem, which extracts core-based top-k frequent patterns with diversity in knowledge graphs.
 ## REQUIREMENTS:
 	Java JRE v1.8.0 or later
 ## INSTRUCTIONS TO COMPILE/RUN:
