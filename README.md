@@ -4,7 +4,7 @@
 - FastPat+ is a framework to solve kCPD problem, which extracts core-based top-k frequent patterns with diversity in knowledge graphs.
 ## REQUIREMENTS
 	Java JRE v1.8.0 or later
-## INSTRUCTIONS TO COMPILE/RUN:
+## INSTRUCTIONS TO COMPILE/RUN
 	- Uncompress FastPat-KG by any compression tool
 	- Build Java binaries using the "build" script file
 	- Run FastPat/FastPat+ using "topkFreq/topkFreqDiv" script
