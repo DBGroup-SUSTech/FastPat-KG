@@ -6,7 +6,7 @@
 	Java JRE v1.8.0 or later
 ## USAGE
 ### Settings
-The proposed optimizations of each algorithm could be set in the configuration file *Settings.java*.
+The proposed optimizations of each algorithm (e.g., kCP-A, FPD-A) could be set in the configuration file *Settings.java*.
 ### Instructions to compile/run
 	- Uncompress FastPat-KG by any compression tool
 	- Build Java binaries using the "build" script file
