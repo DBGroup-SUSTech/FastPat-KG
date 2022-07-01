@@ -7,7 +7,7 @@
 ## INSTRUCTIONS TO COMPILE/RUN:
 	- Uncompress FastPat-KG by any compression tool
 	- Build Java binaries using the "build" script file
-	- Run FastPat-KG using "topkFrequent" script
+	- Run FastPat/FastPat+ using "topkFreq/topkFreqDiv" script
 ## EXECUTION EXAMPLES:
 1. **kCP problem**
 - Extract Top-10 frequent patterns in "Oscar" knowledge graph, with k = 10, core pattern is OscarTest: "./topkFreq.sh -f Oscar.lg -cf OscarTest.lg -k 10"
