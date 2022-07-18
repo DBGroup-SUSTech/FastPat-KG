@@ -25,4 +25,4 @@ The proposed optimizations of each algorithm (e.g., kCP-A, FPD-A) could be set i
 	e <node_id1> <node_id2> <edge_label>
 	...
 
-In particular, it must first list all the graph nodes in ascending order of id, and then all the edges. Lines corresponding to nodes start with the letter v, while those corresponding to edges start with the letter e. ReSuM currently supports only double values as labels, and integer values as node and edge ids.
+In particular, it must first list all the graph nodes in ascending order of id, and then all the edges. Lines corresponding to nodes start with the letter v, while those corresponding to edges start with the letter e. 
