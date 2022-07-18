@@ -17,6 +17,7 @@ The proposed optimizations of each algorithm (e.g., kCP-A, FPD-A) could be set i
 
 2. **kCPD problem**
 - Extract Top-10 frequent patterns with diversidy in "Oscar" knowledge graph, with k = 10, core pattern is OscarTest, diversity threshold \lamda = 0.3: "./topkFreqDiv.sh -f Oscar.lg -cf OscarTest.lg -k 10 -t 0.3" 
+## DATA
 ### Expected graph format
 	v <node_id> <node_label>
 	v <node_id> <node_label>
@@ -26,3 +27,4 @@ The proposed optimizations of each algorithm (e.g., kCP-A, FPD-A) could be set i
 	...
 
 In particular, it must first list all the graph nodes in ascending order of id, and then all the edges. Lines corresponding to nodes start with the letter v, while those corresponding to edges start with the letter e. 
+### Synthetic graph generation
