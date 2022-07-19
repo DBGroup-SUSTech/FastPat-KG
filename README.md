@@ -28,6 +28,6 @@ The proposed optimizations of each algorithm (e.g., kCP-A, FPD-A) could be set i
 
 In particular, it must first list all the graph nodes in ascending order of id, and then all the edges. Lines corresponding to nodes start with the letter v, while those corresponding to edges start with the letter e. 
 ### Synthetic graph generation
-	python2.7 graph_generator.py #ofEdges $degree $SizeofLabel $ProbabilityModle #GraphGenerationModel true
+	python2.7 graph_generator.py #ofNodes $degree $SizeofLabel $ProbabilityModle #GraphGenerationModel true
 	python2.7 graph_generator.py 1000 5 8 exp pa true
 The scripts of labeled grpah gerneration (graph_generator.py) were from https://github.com/MSNTCS/graph-generator#readme, which called the Python interface from Snap.py. It is a Python interface for SNAP (Stanford Network Analysis Platform). SNAP is a general purpose, high performance system for analysis and manipulation of large networks. Additional information is available at http://snap.stanford.edu.
